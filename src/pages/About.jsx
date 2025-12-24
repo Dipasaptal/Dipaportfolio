@@ -117,7 +117,7 @@ I have hands-on experience with UI development, API integration, state managemen
             </div>
             <p className="text-gray-600 leading-relaxed text-lg">
              Currently working as a React.js Developer at 
-  Z-Plus Cyber Secure Technology, Pune (Oct 2024 – Present), where I have gained 1 year 
+  Z-Plus Cyber Secure Technology, Pune (Jan 2025 – Present), where I have gained 1 year 
   of professional experience in building responsive web applications and Android apps using 
   React.js and React Native. 
   My work involves improving site performance, implementing reusable components, and integrating APIs 

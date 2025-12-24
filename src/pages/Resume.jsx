@@ -23,7 +23,7 @@ const Resume = () => {
 
   const experience = [
     {
-      year: "2024-2025-Present",
+      year: "2025 Present",
       position: "React.js Developer",
       company: "Z-Plus Cyber Secure Technology, Pune",
       details: "Developing responsive web applications and mobile applications using modern React ecosystem."
