@@ -99,10 +99,8 @@ const About = () => {
               <h2 className="text-3xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">About Me</h2>
             </div>
             <p className="text-gray-600 leading-relaxed text-lg">
-              Hello! I'm Dipa, a passionate Web and Mobile Developer with a B.Tech in Computer Science Engineering from Dr. D.Y. Patil Pratishthan's College of Engineering, Kolhapur. I am currently working as a React.js Developer at Z-Plus Cyber Secure Technology, Pune, where I have gained 1 year of professional experience building responsive web applications and Android apps using React.js and React Native.
-Previously, I completed a 5-month internship as a Front-End Developer at SevenMentor Pvt. Ltd., Pune, where I built a strong foundation in front-end development.
-I have hands-on experience with UI development, API integration, state management, and performance optimization, and I’m confident in taking on new challenges while continuously improving my skills.
-            </p>
+  Hello! I'm Dipa, a passionate MERN Stack Developer with a B.Tech in Computer Science Engineering from Dr. D.Y. Patil Pratishthan's College of Engineering, Kolhapur. I am currently working as a MERN Stack Developer at Humanus Global Private Limited, Pune, where I have gained 3+ years of professional experience building scalable web applications using React.js, Node.js, Express.js, and MongoDB. I have hands-on experience in frontend and backend development, API integration, database management, and performance optimization. I am passionate about building responsive applications and continuously improving my skills by learning new technologies.
+</p>
           </div>
 
           {/* Experience */}
@@ -116,147 +114,148 @@ I have hands-on experience with UI development, API integration, state managemen
               <h2 className="text-3xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">Experience</h2>
             </div>
             <p className="text-gray-600 leading-relaxed text-lg">
-             Currently working as a React.js Developer at 
-  Z-Plus Cyber Secure Technology, Pune (Jan 2025 – Present), where I have gained 1 year 
-  of professional experience in building responsive web applications and Android apps using 
-  React.js and React Native. 
-  My work involves improving site performance, implementing reusable components, and integrating APIs 
-  to deliver seamless user experiences.
-  Previously, I worked as a Front-End Development Intern
-  at SevenMentor Pvt. Ltd., Pune (2024), where I built a strong foundation in modern web technologies 
-  and contributed to developing user-friendly and scalable solutions while collaborating with 
-  cross-functional teams.
-            </p>
+  Currently working as a MERN Stack Developer at Humanus Global Private Limited, Pune (May 2023 – Present), where I have gained 3+ years of professional experience in building scalable web applications using React.js, Node.js, Express.js, and MongoDB. My work involves developing responsive user interfaces, integrating RESTful APIs, implementing authentication systems, and optimizing application performance to deliver seamless user experiences. I collaborate with cross-functional teams to build reliable, maintainable, and business-focused software solutions.
+</p>
           </div>
         </div>
 
         {/* Personal Info & Quick Facts Row */}
-        <div className={`grid lg:grid-cols-2 gap-8 mb-16 transform transition-all duration-1000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-          
-          {/* Personal Info */}
-          <div className="bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-2 border border-white/20">
-            <div className="flex items-center mb-6">
-              <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-green-600 rounded-full flex items-center justify-center mr-4 shadow-lg">
-                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"/>
-                </svg>
-              </div>
-              <h2 className="text-3xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">Personal Info</h2>
-            </div>
-            <div className="space-y-4">
-              <div className="flex items-center p-3 bg-gray-50 rounded-xl">
-                <span className="font-semibold text-gray-700 w-32">Name:</span>
-                <span className="text-gray-600">Dipa Saptal</span>
-              </div>
-              <div className="flex items-center p-3 bg-gray-50 rounded-xl">
-                <span className="font-semibold text-gray-700 w-32">Roles:</span>
-                <span className="text-gray-600">Front-end Developer</span>
-              </div>
-              <div className="flex items-center p-3 bg-gray-50 rounded-xl">
-                <span className="font-semibold text-gray-700 w-32">Address:</span>
-                <span className="text-gray-600">Shivajinagar Pune</span>
-              </div>
-            </div>
-          </div>
+<div className={`grid lg:grid-cols-2 gap-8 mb-16 transform transition-all duration-1000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+  
+  {/* Personal Info */}
+  <div className="bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-2 border border-white/20">
+    <div className="flex items-center mb-6">
+      <div className="w-12 h-12 bg-gradient-to-r from-green-400 to-green-600 rounded-full flex items-center justify-center mr-4 shadow-lg">
+        <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+          <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"/>
+        </svg>
+      </div>
+      <h2 className="text-3xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">Personal Info</h2>
+    </div>
+    <div className="space-y-4">
+      <div className="flex items-center p-3 bg-gray-50 rounded-xl">
+        <span className="font-semibold text-gray-700 w-32">Name:</span>
+        <span className="text-gray-600">Dipa Saptal</span>
+      </div>
+      <div className="flex items-center p-3 bg-gray-50 rounded-xl">
+        <span className="font-semibold text-gray-700 w-32">Roles:</span>
+        <span className="text-gray-600">MERN Stack Developer</span>
+      </div>
+      <div className="flex items-center p-3 bg-gray-50 rounded-xl">
+        <span className="font-semibold text-gray-700 w-32">Address:</span>
+        <span className="text-gray-600">Pune, Maharashtra</span>
+      </div>
+    </div>
+  </div>
 
-          {/* Quick Facts */}
-          <div className="bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-2 border border-white/20">
-            <div className="flex items-center mb-6">
-              <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-purple-600 rounded-full flex items-center justify-center mr-4 shadow-lg">
-                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                </svg>
-              </div>
-              <h2 className="text-3xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">Quick Facts</h2>
-            </div>
-            <div className="space-y-4">
-              <div className="flex items-center p-3 bg-gray-50 rounded-xl">
-                <span className="font-semibold text-gray-700 w-32">Profile:</span>
-                <span className="text-gray-600">Front-End Developer</span>
-              </div>
-              <div className="flex items-center p-3 bg-gray-50 rounded-xl">
-                <span className="font-semibold text-gray-700 w-32">Domain:</span>
-                <span className="text-gray-600">Front-End Web Development</span>
-              </div>
-              <div className="flex items-center p-3 bg-gray-50 rounded-xl">
-                <span className="font-semibold text-gray-700 w-32">Education:</span>
-                <span className="text-gray-600">BTech Computer Science Engineering</span>
-              </div>
-              <div className="flex items-center p-3 bg-gray-50 rounded-xl">
-                <span className="font-semibold text-gray-700 w-32">IDE:</span>
-                <span className="text-gray-600">Visual Studio Code</span>
-              </div>
-            </div>
-          </div>
+  {/* Quick Facts */}
+  <div className="bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-2 border border-white/20">
+    <div className="flex items-center mb-6">
+      <div className="w-12 h-12 bg-gradient-to-r from-purple-400 to-purple-600 rounded-full flex items-center justify-center mr-4 shadow-lg">
+        <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+        </svg>
+      </div>
+      <h2 className="text-3xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">Quick Facts</h2>
+    </div>
+    <div className="space-y-4">
+      <div className="flex items-center p-3 bg-gray-50 rounded-xl">
+        <span className="font-semibold text-gray-700 w-32">Profile:</span>
+        <span className="text-gray-600">MERN Stack Developer</span>
+      </div>
+      <div className="flex items-center p-3 bg-gray-50 rounded-xl">
+        <span className="font-semibold text-gray-700 w-32">Domain:</span>
+        <span className="text-gray-600">Full Stack Web Development</span>
+      </div>
+      <div className="flex items-center p-3 bg-gray-50 rounded-xl">
+        <span className="font-semibold text-gray-700 w-32">Education:</span>
+        <span className="text-gray-600">B.Tech Computer Science Engineering</span>
+      </div>
+      <div className="flex items-center p-3 bg-gray-50 rounded-xl">
+        <span className="font-semibold text-gray-700 w-32">Experience:</span>
+        <span className="text-gray-600">3+ Years</span>
+      </div>
+      <div className="flex items-center p-3 bg-gray-50 rounded-xl">
+        <span className="font-semibold text-gray-700 w-32">IDE:</span>
+        <span className="text-gray-600">Visual Studio Code</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+   {/* Skills Section */}
+<div className={`transform transition-all duration-1000 delay-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+  <div className="text-center mb-16">
+    <h2 className="text-5xl font-bold bg-gradient-to-r from-gray-800 via-gray-600 to-gray-800 bg-clip-text text-transparent mb-4">
+      My Skills
+    </h2>
+    <p className="text-gray-600 text-xl max-w-2xl mx-auto">
+      I specialize in MERN Stack Development with expertise in React.js, Node.js, Express.js, MongoDB, REST APIs, and modern web technologies.
+    </p>
+  </div>
+
+  <div className="grid lg:grid-cols-3 gap-8">
+    {/* Frontend Development */}
+    <div className="bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-2 border border-white/20 hover:border-blue-200">
+      <div className="text-center mb-8">
+        <div className="w-20 h-20 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg hover:scale-110 transition-transform duration-300">
+          <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
+          </svg>
         </div>
+        <h3 className="text-2xl font-bold text-gray-900 mb-3">Frontend Development</h3>
+        <p className="text-gray-600">
+          Building responsive and interactive web applications using modern frontend technologies
+        </p>
+      </div>
+      <div className="space-y-4">
+        {frontendSkills.map((skill, idx) => (
+          <SkillBar key={idx} skill={skill.name} percentage={skill.percentage} delay={idx * 100} />
+        ))}
+      </div>
+    </div>
 
-        {/* Skills Section */}
-        <div className={`transform transition-all duration-1000 delay-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-          <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold bg-gradient-to-r from-gray-800 via-gray-600 to-gray-800 bg-clip-text text-transparent mb-4">
-              My Skills
-            </h2>
-            <p className="text-gray-600 text-xl max-w-2xl mx-auto">
-              I specialize in modern web technologies and mobile app development, with expertise in both frontend and backend technologies.
-            </p>
-          </div>
-
-          <div className="grid lg:grid-cols-3 gap-8">
-            {/* Frontend Web Development */}
-            <div className="bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-2 border border-white/20 hover:border-blue-200">
-              <div className="text-center mb-8">
-                <div className="w-20 h-20 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg hover:scale-110 transition-transform duration-300">
-                  <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
-                  </svg>
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">Frontend Web Development</h3>
-                <p className="text-gray-600">Creating responsive and interactive user interfaces</p>
-              </div>
-              <div className="space-y-4">
-                {frontendSkills.map((skill, idx) => (
-                  <SkillBar key={idx} skill={skill.name} percentage={skill.percentage} delay={idx * 100} />
-                ))}
-              </div>
-            </div>
-
-            {/* Mobile App Development */}
-            <div className="bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-2 border border-white/20 hover:border-green-200">
-              <div className="text-center mb-8">
-                <div className="w-20 h-20 bg-gradient-to-r from-green-400 to-green-600 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg hover:scale-110 transition-transform duration-300">
-                  <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 011 1v8a1 1 0 01-1 1H5a1 1 0 01-1-1V7zM9 11a1 1 0 100 2h2a1 1 0 100-2H9z"/>
-                  </svg>
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">Mobile App Development</h3>
-                <p className="text-gray-600">Building cross-platform mobile applications</p>
-              </div>
-              <div className="space-y-4">
-                {mobileSkills.map((skill, idx) => (
-                  <SkillBar key={idx} skill={skill.name} percentage={skill.percentage} delay={idx * 100 + 600} />
-                ))}
-              </div>
-            </div>
-
-            {/* Backend Development */}
-            <div className="bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-2 border border-white/20 hover:border-purple-200">
-              <div className="text-center mb-8">
-                <div className="w-20 h-20 bg-gradient-to-r from-purple-400 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg hover:scale-110 transition-transform duration-300">
-                  <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
-                  </svg>
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">Backend Development</h3>
-                <p className="text-gray-600">Basic skills in server-side technologies</p>
-              </div>
-              <div className="space-y-4">
-                {backendSkills.map((skill, idx) => (
-                  <SkillBar key={idx} skill={skill.name} percentage={skill.percentage} delay={idx * 100 + 1200} />
-                ))}
-              </div>
-            </div>
-          </div>
+    {/* Full Stack Development */}
+    <div className="bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-2 border border-white/20 hover:border-green-200">
+      <div className="text-center mb-8">
+        <div className="w-20 h-20 bg-gradient-to-r from-green-400 to-green-600 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg hover:scale-110 transition-transform duration-300">
+          <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 011 1v8a1 1 0 01-1 1H5a1 1 0 01-1-1V7zM9 11a1 1 0 100 2h2a1 1 0 100-2H9z" />
+          </svg>
         </div>
+        <h3 className="text-2xl font-bold text-gray-900 mb-3">Full Stack Development</h3>
+        <p className="text-gray-600">
+          Developing end-to-end web applications with frontend and backend integration
+        </p>
+      </div>
+      <div className="space-y-4">
+        {mobileSkills.map((skill, idx) => (
+          <SkillBar key={idx} skill={skill.name} percentage={skill.percentage} delay={idx * 100 + 600} />
+        ))}
+      </div>
+    </div>
+
+    {/* Backend Development */}
+    <div className="bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:-translate-y-2 border border-white/20 hover:border-purple-200">
+      <div className="text-center mb-8">
+        <div className="w-20 h-20 bg-gradient-to-r from-purple-400 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg hover:scale-110 transition-transform duration-300">
+          <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
+          </svg>
+        </div>
+        <h3 className="text-2xl font-bold text-gray-900 mb-3">Backend Development</h3>
+        <p className="text-gray-600">
+          Building secure APIs, authentication systems, and database-driven applications
+        </p>
+      </div>
+      <div className="space-y-4">
+        {backendSkills.map((skill, idx) => (
+          <SkillBar key={idx} skill={skill.name} percentage={skill.percentage} delay={idx * 100 + 1200} />
+        ))}
+      </div>
+    </div>
+  </div>
+</div>
       </div>
 
       <style jsx>{`

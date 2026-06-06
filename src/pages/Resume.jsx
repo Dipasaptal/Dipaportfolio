@@ -1,49 +1,41 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FiDownload, FiAward, FiBriefcase, FiCode } from 'react-icons/fi';
-import resumePdf from '../assets/dipa rsm.pdf';
+import resumePdf from '../assets/DIPA SAPTAL_Full Stack MERN Developer_3+.pdf';
 
 const Resume = () => {
   const pdfUrl = resumePdf;
 
   const education = [
-    {
-      year: "2023",
-      degree: "B.Tech in Computer Science",
-      university: "Shivaji University, Kolhapur",
-      details: "Graduated with Computer Science Engineering"
-    },
-    {
-      year: "2020",
-      degree: "Diploma",
-      university: "Maharashtra State Board of Technical Education",
-      details: "Specialized in Computer Science "
-    }
-  ];
+  {
+    year: "2023",
+    degree: "Bachelor of Technology (B.Tech) – Computer Science & Engineering",
+    university: "Shivaji University, Kolhapur",
+    details: "Completed B.Tech in Computer Science & Engineering."
+  }
+];
 
-  const experience = [
-    {
-      year: "2025 Present",
-      position: "React.js Developer",
-      company: "Z-Plus Cyber Secure Technology, Pune",
-      details: "Developing responsive web applications and mobile applications using modern React ecosystem."
-    },
-    {
-      year: "2023-2024",
-      position: "Front-End Development Intern",
-      company: "SevenMentor Pvt. Ltd, Pune",
-      details: "Built responsive web applications using react.js"
-    }
-  ];
+const experience = [
+  {
+    year: "May 2023 - Present",
+    position: "MERN Stack Developer",
+    company: "Humanus Global Private Limited",
+    details: "Building scalable web applications using React.js, JavaScript, Node.js, Express.js, MongoDB, Tailwind CSS, Redux Toolkit and REST APIs."
+  }
+];
 
-  const skills = [
-    { name: "HTML5/CSS3", level: 95 },
-    { name: "JavaScript", level: 90 },
-    { name: "React.js", level: 88 },
-    { name: "React Native", level: 85 },
-    { name: "Node.js", level: 70 },
-    { name: "UI/UX Design", level: 80 }
-  ];
+const skills = [
+  { name: "React.js", level: 95 },
+  { name: "JavaScript (ES6+)", level: 95 },
+  { name: "Node.js", level: 90 },
+  { name: "Express.js", level: 88 },
+  { name: "MongoDB", level: 90 },
+  { name: "Tailwind CSS", level: 95 },
+  { name: "Redux Toolkit", level: 90 },
+  { name: "REST APIs", level: 92 },
+  { name: "Git & GitHub", level: 90 },
+  { name: "AWS & Deployment", level: 80 }
+];
 
   return (
     <div className="relative w-full min-h-screen overflow-hidden bg-gray-900 text-white">
@@ -156,7 +148,13 @@ const Resume = () => {
               <FiCode className="text-white text-xl" />
             </div>
             <h3 className="text-2xl font-bold text-white">My Skills</h3>
+            
           </div>
+          <p className="text-gray-400 mb-8">
+  MERN Stack Developer with 3+ years of experience in React.js, Node.js,
+  Express.js, MongoDB, Tailwind CSS, API Integration, Redux Toolkit,
+  Authentication, Cloud Deployment, and Performance Optimization.
+</p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {skills.map((skill, index) => (

@@ -10,8 +10,8 @@ const Footer = () => {
           <div className="md:col-span-2">
             <h3 className="text-2xl font-bold mb-4 text-yellow-400">Dipa Saptal</h3>
             <p className="text-gray-300 mb-4">
-              Front-End Developer specializing in React.js and React Native. Passionate about creating exceptional digital experiences.
-            </p>
+  Full Stack MERN Developer with 3+ years of experience in building scalable web applications using React.js, JavaScript, Node.js, Express.js, MongoDB, Redux Toolkit, and Tailwind CSS. Passionate about creating responsive, user-friendly, and high-performance digital solutions.
+</p>
             <div className="flex space-x-4">
               <a 
                 href="https://github.com/Dipasaptal" 
@@ -53,11 +53,11 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <FiPhone className="text-yellow-400 mr-3" />
-                <a href="tel:+918830670545" className="text-gray-300 hover:text-yellow-400 transition-colors">+91 8830670545</a>
+                <a href="tel:+917028023292" className="text-gray-300 hover:text-yellow-400 transition-colors">+91 7028023292</a>
               </li>
               <li className="flex items-center">
                 <FiMail className="text-yellow-400 mr-3" />
-                <a href="mailto:dipasaptal@gmail.com" className="text-gray-300 hover:text-yellow-400 transition-colors">dipasaptal@gmail.com</a>
+                <a href="mailto:deepasaptal442@gmail.com" className="text-gray-300 hover:text-yellow-400 transition-colors">deepasaptal442@gmail.com</a>
               </li>
             </ul>
           </div>

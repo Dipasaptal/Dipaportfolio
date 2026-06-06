@@ -1,7 +1,7 @@
 import React from 'react'; 
 import { Button } from '@mui/material';
 import Navbar from '../components/Navbar';
-import resumePdf from '../assets/dipa rsm.pdf';
+import resumePdf from '../assets/DIPA SAPTAL_Full Stack MERN Developer_3+.pdf';
 import HomeSections from './HomeSections';
 
 const Home = () => {
@@ -34,12 +34,16 @@ const Home = () => {
             {/* Professional Info */}
             <div className="space-y-3 transform transition-all hover:translate-x-1">
               <h2 className="text-lg font-semibold text-white">
-                Front-End Developer | React.js / React Native Developer | BTech CSE
-              </h2>
-              <p className="text-gray-300 text-base leading-relaxed max-w-lg">
-                Passionate about creating exceptional digital experiences with modern web technologies. 
-                Currently working as a React.js Developer at Z-Plus Cyber Secure Technology, Pune.
-              </p>
+  Full Stack MERN Developer | React.js | Node.js | MongoDB | B.Tech CSE
+</h2>
+
+<p className="text-gray-300 text-base leading-relaxed max-w-lg">
+  Full Stack MERN Developer with 3+ years of experience in building scalable,
+  responsive, and user-friendly web applications using React.js, JavaScript,
+  Node.js, Express.js, MongoDB, Redux Toolkit, and Tailwind CSS.
+  Currently working at Humanus Global Private Limited, Pune, delivering
+  modern web solutions and high-performance applications.
+</p>
             </div>
 
             {/* Buttons */}
