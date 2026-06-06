@@ -4,7 +4,7 @@ import { FiDownload, FiAward, FiBriefcase, FiCode } from 'react-icons/fi';
 import resumePdf from '../assets/DIPA SAPTAL_Full Stack MERN Developer_3+.pdf';
 
 const Resume = () => {
-  const pdfUrl = resumePdf;
+  
 
   const education = [
   {

@@ -1,9 +1,8 @@
 import React from 'react'; 
-import { Button } from '@mui/material';
+
 import Navbar from '../components/Navbar';
 import resumePdf from '../assets/DIPA SAPTAL_Full Stack MERN Developer_3+.pdf';
 import HomeSections from './HomeSections';
-
 const Home = () => {
   return (
     <div className="bg-gradient-to-br from-gray-50 to-gray-100 text-gray-900 w-full">
