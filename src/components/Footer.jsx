@@ -53,11 +53,11 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <FiPhone className="text-yellow-400 mr-3" />
-                <a href="tel:+917028023292" className="text-gray-300 hover:text-yellow-400 transition-colors">+91 7028023292</a>
+                <a href="tel:+917028023292" className="text-gray-300 hover:text-yellow-400 transition-colors">+91 7796193159</a>
               </li>
               <li className="flex items-center">
                 <FiMail className="text-yellow-400 mr-3" />
-                <a href="mailto:deepasaptal442@gmail.com" className="text-gray-300 hover:text-yellow-400 transition-colors">deepasaptal442@gmail.com</a>
+                <a href="mailto:deepasaptal442@gmail.com" className="text-gray-300 hover:text-yellow-400 transition-colors">dipasaptal5916@gmail.com</a>
               </li>
             </ul>
           </div>
