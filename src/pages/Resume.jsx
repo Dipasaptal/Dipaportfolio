@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FiDownload, FiAward, FiBriefcase, FiCode } from 'react-icons/fi';
-import resumePdf from '../assets/DIPA SAPTAL_Full Stack MERN Developer_3+.pdf';
+import resumePdf from '../assets/Mern Full Stack Developer 3 years.pdf';
 
 const Resume = () => {
   
